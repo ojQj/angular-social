@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import {ColorPickerModule} from 'ngx-color-picker';
+import { PersonalSquareComponent } from './personal-square/personal-square.component';
 
 @NgModule({
   imports: [
@@ -34,7 +35,8 @@ import {ColorPickerModule} from 'ngx-color-picker';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    PersonalSquareComponent
   ],
   bootstrap: [ AppComponent ]
 })
